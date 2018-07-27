@@ -3,3 +3,5 @@
   tasks: 
   - name: Copy config
     copy: src=/apps/work/ansible/repository_1/test.json dest=/tmp/test.json
+  - name: test
+    shell: echo '{{version}}' > /tmp/sdsk.log

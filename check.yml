@@ -1,5 +1,5 @@
 ---
-- hosts: "{{host}}"
+- hosts: "192.168.33.200"
   tasks: 
   - name: Copy config
     shell: ls /

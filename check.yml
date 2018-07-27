@@ -2,4 +2,4 @@
 - hosts: "192.168.33.200"
   tasks: 
   - name: Copy config
-    copy: src=test.json dest=/tmp/test.json
+    copy: src=/apps/data/ansible/repository_1/test.json dest=/tmp/test.json

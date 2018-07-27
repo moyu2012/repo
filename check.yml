@@ -2,4 +2,4 @@
 - hosts: "192.168.33.200"
   tasks: 
   - name: Copy config
-    shell: ls /
+    copy: src=test.json dest=/tmp/test.json

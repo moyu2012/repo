@@ -1,0 +1,5 @@
+---
+- hosts: "{{host}}"
+  tasks: 
+  - name: Copy config
+    shell: ls /
